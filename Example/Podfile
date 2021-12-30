@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ConsoliAds-UnityAds-Adapter_Example' do
+  pod 'ConsoliAds-UnityAds-Adapter', :path => '../'
+
+  target 'ConsoliAds-UnityAds-Adapter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

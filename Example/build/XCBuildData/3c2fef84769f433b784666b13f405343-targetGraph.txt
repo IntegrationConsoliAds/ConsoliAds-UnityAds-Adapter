@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+ConsoliAds-UnityAds-Adapter in Pods
+FBSnapshotTestCase in Pods
+Pods-ConsoliAds-UnityAds-Adapter_Example in Pods, depends on:
+ConsoliAds-UnityAds-Adapter in Pods (explicit)
+Pods-ConsoliAds-UnityAds-Adapter_Tests in Pods, depends on:
+FBSnapshotTestCase in Pods (explicit)
+Pods-ConsoliAds-UnityAds-Adapter_Example in Pods (explicit)

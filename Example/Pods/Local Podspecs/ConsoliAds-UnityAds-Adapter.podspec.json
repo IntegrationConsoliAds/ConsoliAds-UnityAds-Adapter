@@ -1,0 +1,22 @@
+{
+  "name": "ConsoliAds-UnityAds-Adapter",
+  "version": "0.1.0",
+  "summary": "A short description of ConsoliAds-UnityAds-Adapter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Wazma Ali/ConsoliAds-UnityAds-Adapter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wazma Ali": "wazma.ali@consoliads.com"
+  },
+  "source": {
+    "git": "https://github.com/Wazma Ali/ConsoliAds-UnityAds-Adapter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ConsoliAds-UnityAds-Adapter/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_ConsoliAds_UnityAds_Adapter_Tests {
+  umbrella header "Pods-ConsoliAds-UnityAds-Adapter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
