@@ -109,7 +109,7 @@
 		B4896E58BE1607F5AE42328A38CCDDEC /* Pods-ConsoliAds-UnityAds-Adapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ConsoliAds-UnityAds-Adapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BA3D45FA277DED95000E01D9 /* ConsoliAdsUnityAdsAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ConsoliAdsUnityAdsAdapter.framework; path = "ConsoliAds-UnityAds-Adapter/ConsoliAdsUnityAdsAdapter.framework"; sourceTree = "<group>"; };
-		BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds-UnityAds-Adapter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "ConsoliAds-UnityAds-Adapter"; path = ConsoliAds_UnityAds_Adapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds_UnityAds_Adapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ConsoliAds_UnityAds_Adapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3B5F8ACEE3E3A4FC85C678DBFB057C /* Pods-ConsoliAds-UnityAds-Adapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ConsoliAds-UnityAds-Adapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C09A51106B0ACF05778F3E8726C013C7 /* ConsoliAds-UnityAds-Adapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ConsoliAds-UnityAds-Adapter.release.xcconfig"; sourceTree = "<group>"; };
 		C430286ED913FF9A042DBB555427814A /* Pods-ConsoliAds-UnityAds-Adapter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ConsoliAds-UnityAds-Adapter_Tests"; path = Pods_ConsoliAds_UnityAds_Adapter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,7 +226,7 @@
 		8BA2DAA8F76366E7D8D66814BB3AF615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds-UnityAds-Adapter */,
+				BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds_UnityAds_Adapter.framework */,
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
 				2CF44AB834D480258904AD05FE811D27 /* Pods-ConsoliAds-UnityAds-Adapter_Example */,
 				C430286ED913FF9A042DBB555427814A /* Pods-ConsoliAds-UnityAds-Adapter_Tests */,
@@ -475,7 +475,7 @@
 			);
 			name = "ConsoliAds-UnityAds-Adapter";
 			productName = ConsoliAds_UnityAds_Adapter;
-			productReference = BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds-UnityAds-Adapter */;
+			productReference = BB15D78CB3CFBD5430616FFE7B58C4A8 /* ConsoliAds_UnityAds_Adapter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -746,6 +746,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../ConsoliAds-UnityAds-Adapter/ConsoliAdsUnityAdsAdapter.framework\"";
 				GCC_PREFIX_HEADER = "Target Support Files/ConsoliAds-UnityAds-Adapter/ConsoliAds-UnityAds-Adapter-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-UnityAds-Adapter/ConsoliAds-UnityAds-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -806,6 +807,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../ConsoliAds-UnityAds-Adapter/ConsoliAdsUnityAdsAdapter.framework\"";
 				GCC_PREFIX_HEADER = "Target Support Files/ConsoliAds-UnityAds-Adapter/ConsoliAds-UnityAds-Adapter-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ConsoliAds-UnityAds-Adapter/ConsoliAds-UnityAds-Adapter-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
