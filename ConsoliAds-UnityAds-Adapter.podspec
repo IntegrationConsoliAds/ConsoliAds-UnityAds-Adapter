@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ConsoliAds-UnityAds-Adapter'
-  s.version          = '3.7.5-1.0'
+  s.version          = '3.7.5-1.1'
   s.summary          = 'This pod is used to get unityAds adapter for unityAds serving after integrating Consoliads-Mediation pod.'
 
 # This description is used to generate tags and improve search results.
