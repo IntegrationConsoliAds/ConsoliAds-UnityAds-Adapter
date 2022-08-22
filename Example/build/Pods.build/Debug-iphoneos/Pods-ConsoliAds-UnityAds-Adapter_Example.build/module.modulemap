@@ -1,0 +1,6 @@
+framework module Pods_ConsoliAds_UnityAds_Adapter_Example {
+  umbrella header "Pods-ConsoliAds-UnityAds-Adapter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

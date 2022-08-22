@@ -27,11 +27,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/IntegrationConsoliAds/ConsoliAds-UnityAds-Adapter.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.vendored_frameworks = 'ConsoliAds-UnityAds-Adapter/ConsoliAdsUnityAdsAdapter.framework'
+  s.vendored_frameworks = 'ConsoliAds-UnityAds-Adapter/ConsoliAdsUnityAdsAdapter.xcframework'
   s.xcconfig = {"OTHER_LDFLAGS" => "-ObjC"}
 
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
+  s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES', "MACH_O_TYPE" => "staticlib"}
   s.static_framework = true
 
 end
