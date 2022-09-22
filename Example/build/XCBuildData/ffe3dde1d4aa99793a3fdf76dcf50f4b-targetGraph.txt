@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+ConsoliAds-UnityAds-Adapter in Pods, no dependencies
+Pods-ConsoliAds-UnityAds-Adapter_Example in Pods, depends on:
+ConsoliAds-UnityAds-Adapter in Pods (explicit)
